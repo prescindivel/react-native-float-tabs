@@ -15,7 +15,7 @@ const { Navigator, Screen } = createBottomTabNavigator();
 
 const App = () => (
   <>
-    <StatusBar translucent backgroundColor="transparent" />
+    <StatusBar barStyle="dark-content" backgroundColor="white" />
     <SafeAreaProvider>
       <NavigationContainer>
         <Navigator tabBar={(props) => <TabBar {...props} />}>
